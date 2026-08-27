@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="Rich Sutherland"
+	description="Rich Sutherland"
+	pubDate={new Date('August, 26, 2026')}
+	heroImage=""
+>
+	<p>
+		I’m an IT and quality professional with nearly 20 years of experience. I began my career as a point of contact at the IT Help Desk at the community college where I started my education. Since then, I have supported remote and on-site employees as a system administrator for a midsize business and have grown my career at Apple, where I contribute to initiatives that improve products and services used by people around the world.
+
+	</p>
+
+	<p>
+		I have had the opportunity to work with a variety of teams, including internal engineering groups, executive stakeholders, and customer-support organizations. My experience includes developing processes and procedures, managing escalated customer cases, triaging bugs, evaluating advisor quality, analyzing data and trends, maintaining technical documentation, and improving tracking processes.
+
+	</p>
+
+	<p>
+		I enjoy digging into complex problems, identifying patterns, and helping teams turn insights into practical improvements. I take pride in being dependable, detail-oriented, organized, and able to perform well in fast-paced environments.
+
+	</p>
+
+	<p>
+		What I enjoy most is helping make technology and customer experiences better. Whether I am identifying an emerging issue, improving a process, or sharing feedback that helps someone grow, I bring a thoughtful, collaborative approach to my work. I am currently completing my Bachelor of Science in Information Technology, with an expected graduation date of 2026, and I am always looking for opportunities to learn, grow, and apply my technical and analytical skills in meaningful ways.
+
+	</p>
+
+	<p>
+		I am excited to bring my experience, curiosity, and collaborative mindset to a team where I can continue improving technology, processes, and customer experiences.
+
+	</p>
+</Layout>
