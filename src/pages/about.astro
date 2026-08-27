@@ -1,14 +1,22 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<Layout
-	title="Rich Sutherland"
-	description="Rich Sutherland"
-	pubDate={new Date('August, 26, 2026')}
-	heroImage=""
->
-	<p>
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+
+
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>My Professonal Journey</h1>
+			<p>
 		I’m an IT and quality professional with nearly 20 years of experience. I began my career as a point of contact at the IT Help Desk at the community college where I started my education. Since then, I have supported remote and on-site employees as a system administrator for a midsize business and have grown my career at Apple, where I contribute to initiatives that improve products and services used by people around the world.
 
 	</p>
@@ -31,5 +39,8 @@ import Layout from '../layouts/BlogPost.astro';
 	<p>
 		I am excited to bring my experience, curiosity, and collaborative mindset to a team where I can continue improving technology, processes, and customer experiences.
 
-	</p>
-</Layout>
+</p>
+		</main>
+		<Footer />
+	</body>
+</html>
